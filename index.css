@@ -1,0 +1,146 @@
+                                .tel {
+                                    color: #FFFFFF;
+                                    text-decoration: none;
+                                }
+                                
+                                .bitcoin {
+                                    height: 450px;
+                                    background-color: #1D1D1B;
+                                    border-radius: 10px;
+                                    text-align: center;
+                                }
+                                
+                                .bit {
+                                    color: #FFFFFF;
+                                    text-align: center;
+                                }
+                                
+                                button {
+                                    margin-left: initial;
+                                    margin-top: 2%;
+                                    background: #34A347;
+                                    color: #FFFFFF;
+                                    border: 1px solid #34A347;
+                                    padding: 10px;
+                                }
+                                
+                                button:hover {
+                                    background: transparent;
+                                    color: #34A347;
+                                }
+                                
+                                .btc1 {
+                                    text-decoration: none;
+                                    background-color: rgb(50, 248, 10);
+                                    text-align: center;
+                                    border: 1px;
+                                    color: #FFFFFF;
+                                    padding: 3px;
+                                }
+                                
+                                .btc2 {
+                                    text-decoration: none;
+                                    background-color: red;
+                                    text-align: center;
+                                    border: 22px;
+                                    color: #FFFFFF;
+                                    left: calc(3% + 60px);
+                                    padding: 3px;
+                                }
+                                
+                                .copy {
+                                    color: #FFFFFF;
+                                }
+                                
+                                .coin {
+                                    text-align: center;
+                                    padding: 3px;
+                                    border-spacing: 29px;
+                                    margin: 20px;
+                                }
+                                
+                                body {
+                                    margin: 0;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                    background: #262626;
+                                    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                                }
+                                
+                                h2 {
+                                    color: white;
+                                    text-align: center;
+                                }
+                                
+                                #crypto-list {
+                                    max-height: 80vh;
+                                    overflow-y: auto;
+                                }
+                                
+                                .crypto-item {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    padding-left: 4vw;
+                                    padding-right: 4vw;
+                                    width: 80vw;
+                                    margin: auto;
+                                    color: white;
+                                    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+                                }
+                                
+                                #wheat {
+                                    color: wheat !important;
+                                }
+                                
+                                .info {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: flex-start;
+                                }
+                                
+                                .name {
+                                    margin-left: 20px;
+                                }
+                                
+                                .crypto-item img {
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 1000px;
+                                }
+                                
+                                #text:before {
+                                    Content: "Разрешение для экранов больше 1200px(Компьютер, телевизор, ноутбуки)";
+                                }
+                                
+                                @media screen and (max-width: 1200px) {
+                                    #text:before {
+                                        Content: "Разрешение для экранов до  1200px  (ноутбуки)";
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 800px) {
+                                    #text:before {
+                                        Content: "Разрешение для экранов   до 800px(планшеты)";
+                                    }
+                                }
+                                
+                                @media screen and (max-width: 320px) {
+                                    #text:before {
+                                        Content: "Разрешение для экранов   до 800px(смартфоны)";
+                                    }
+                                }
+                                
+                                .usd {
+                                    background-color: #34A347;
+                                    color: #FFFFFF;
+                                    border: 5px;
+                                    text-decoration: none;
+                                    padding: 10px;
+                                }
+                                
+                                .footer {
+                                    background-color: #0b0c0c;
+                                    height: auto;
+                                    text-align: center;
+                                }
